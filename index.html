@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inkwell downloads</title>
+<meta name="description" content="Current installers for Inkwell, a desktop note taker for macOS and Windows.">
+<link rel="canonical" href="https://www.inkwellnotes.com/download">
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0;
+    padding: 4rem 1.5rem;
+    background: #0e0e13;
+    color: #f4f4f6;
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 34rem; margin: 0 auto; }
+  h1 { margin: 0 0 0.25rem; font-size: 1.75rem; }
+  p { margin: 0 0 1.5rem; color: #a2a7b3; }
+  ul { margin: 0 0 2rem; padding: 0; list-style: none; }
+  li { border-top: 1px solid #262631; }
+  li:last-child { border-bottom: 1px solid #262631; }
+  li a { display: block; padding: 0.85rem 0; }
+  a { color: #9e90f4; }
+  a:focus-visible { outline: 2px solid #9e90f4; outline-offset: 3px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Inkwell downloads</h1>
+  <p id="status">Loading the current version…</p>
+  <ul id="installers" hidden></ul>
+  <noscript>
+    <p>This list needs JavaScript. Every installer is also on
+      <a href="https://www.inkwellnotes.com/download">inkwellnotes.com/download</a>.</p>
+  </noscript>
+  <p>This is the update channel for Inkwell. More about the app at
+    <a href="https://www.inkwellnotes.com">inkwellnotes.com</a>.</p>
+</main>
+<script>
+(function () {
+  var SITE = "https://www.inkwellnotes.com/download";
+  var status = document.getElementById("status");
+  var list = document.getElementById("installers");
+
+  // Accept an installer URL only if it is https with the expected file type,
+  // so a malformed manifest cannot make this page link something else.
+  function installerOf(url, ext) {
+    if (typeof url !== "string") return "";
+    var u = url.trim();
+    return /^https:\/\//i.test(u) && ext.test(u.split(/[?#]/)[0]) ? u : "";
+  }
+
+  // Prefer the manifest's `installers` map; fall back to the file naming
+  // convention for manifests published before that map existed.
+  function resolve(latest) {
+    var version = String(latest.version || "").trim();
+    var inst = latest.installers || {};
+    var base = new URL(".", location.href).href;
+    var byName = function (name) { return version ? base + name : ""; };
+    return [
+      ["Mac (Apple Silicon)", installerOf(inst["darwin-aarch64-dmg"], /\.dmg$/i) || byName("inkwell_" + version + "_aarch64.dmg")],
+      ["Mac (Intel)", installerOf(inst["darwin-x86_64-dmg"], /\.dmg$/i) || byName("inkwell_" + version + "_x64.dmg")],
+      ["Windows (installer)", installerOf(inst["windows-x86_64-exe"], /\.exe$/i) || byName("inkwell_" + version + "_x64-setup.exe")],
+      ["Windows (MSI)", installerOf(inst["windows-x86_64-msi"], /\.msi$/i) || byName("inkwell_" + version + "_x64_en-US.msi")]
+    ].filter(function (row) { return row[1]; });
+  }
+
+  function fail() {
+    status.textContent = "The installer list could not be loaded. ";
+    var a = document.createElement("a");
+    a.href = SITE;
+    a.textContent = "Download from inkwellnotes.com";
+    status.appendChild(a);
+  }
+
+  fetch("latest.json", { cache: "no-cache" })
+    .then(function (r) {
+      if (!r.ok) throw new Error(String(r.status));
+      return r.json();
+    })
+    .then(function (latest) {
+      var rows = resolve(latest);
+      if (!rows.length) return fail();
+      rows.forEach(function (row) {
+        var li = document.createElement("li");
+        var a = document.createElement("a");
+        a.href = row[1];
+        a.textContent = "Download for " + row[0];
+        li.appendChild(a);
+        list.appendChild(li);
+      });
+      status.textContent = "Version " + latest.version;
+      list.hidden = false;
+    })
+    .catch(fail);
+})();
+</script>
+</body>
+</html>
