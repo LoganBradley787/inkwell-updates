@@ -1,11 +1,11 @@
 {
-  "version": "2.0.0",
+  "version": "2.0.1",
   "notes": "",
-  "pub_date": "2026-07-14T01:21:25Z",
+  "pub_date": "2026-11-22T04:00:53Z",
   "platforms": {
     "darwin-aarch64": {
       "url": "https://loganbradley787.github.io/inkwell-updates/inkwell-darwin-aarch64.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdG5uVkovY3kyUXgyN1RhYzF3ZEc5ZzdSbE9yaTcwMGNOdXRBaGZoMi96T05XZHhqbTdSUU0wdmN6UEV4Tkhhdmt2UmtFVXMwalN6TDI1RWgwOWZFVXFteE5RVHNmQmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzOTg5NTMyCWZpbGU6aW5rd2VsbC5hcHAudGFyLmd6Cjc4RmNVQVFpZklvdjZpZHQ5N3hOTlVtbkxSVHRkMjBjMHl2RFVRYnUwR0g2LzhPMFZQM2sveTV0ajI1Vy9SV1FYY3AxV1hraldhbVF3ODlZUHN1M0NBPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdG5uVkovY3kyUXk0bnFEUmw5TytFUUdETE4xWGNOYW9sbDVIZDcvVVlUNlNtY1BDTnlIUzFTc0hyTG50Y0ZiUk9jeXBIYzNzT01ITXVzVStpSVYydFh1SGdlTjRBdWdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzE5ODYwCWZpbGU6aW5rd2VsbC5hcHAudGFyLmd6CnoreGRZM1Awa0FhektlbWtrdGZJcmtXaG1aanQ1RWNESTVMTUZMRmJFaWZkdjVuVDR2T21lY2pmSHlaWjdwQkVoWWVFK3N0WlVubW4wTlVKVWFUaEFnPT0K"
     },
     "linux-x86_64": {
       "url": "https://loganbradley787.github.io/inkwell-updates/inkwell_2.0.0_amd64.AppImage",
@@ -13,11 +13,15 @@
     },
     "darwin-x86_64": {
       "url": "https://loganbradley787.github.io/inkwell-updates/inkwell-darwin-x86_64.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdG5uVkovY3kyUXl4TXRqMXFpU25EY25DdVpGNS91U3BXYUdNdWMzTTVFb0VpWUpReTNHQzdid0c4eWVMOGNOVjlFTkpwSWxJc1dBQkxNcG5nNmdXOG1XSk1wTnpRR0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzOTg5NTg1CWZpbGU6aW5rd2VsbC5hcHAudGFyLmd6Cnoydkh6dU16Uk1nK25tK1NNazFrdE5pN1NoMVVFcm52ZDBOUDhsQXpraCttd1hMMkFkbXNuWlFVd2NkVXdYYkJkUTE0eVVhNjdUQ2dUOUJRalNtQ0FRPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdG5uVkovY3kyUThSTEdBUWFZZ1RoS05sWHRUeS9LOGY0RGRudzFFeXlPK2lLYm5BSWdyZnEzYUVSdWo3QkJvMmRFZ2hRMFJ6Tk9TSWNuc1FNTU1xbFhzS25DWmdqbWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzE5OTU3CWZpbGU6aW5rd2VsbC5hcHAudGFyLmd6CjgvQ0NtcXRaMXRUekNKK0lHMnk1MENJY2ZlZ00ycU9kc0VhcWVCdGJMbitKSUZtc24zeVFZbXNKbkJPR2ZacUE4RXo2aXp4RnAwL3FrOVlmNWVvaER3PT0K"
     },
     "windows-x86_64": {
       "url": "https://loganbradley787.github.io/inkwell-updates/inkwell_2.0.0_x64_en-US.msi",
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdG5uVkovY3kyUTNYZ2kxQVpRU0NIRmtxejVkdkxzbW9kU1NUSG5Ldnd4YzVjbkhHUEY0bmNET2tzcThtUzNCRjNyK2MxWlZkbmdVRUFFMDZRQ1d2V3NoS0IxdzlnWGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzOTkxOTIwCWZpbGU6aW5rd2VsbF8yLjAuMF94NjRfZW4tVVMubXNpClQ4djJnWSs0cmJNVGc2VmRUT1pnN3lvbFRDYTJCY2dTc3NrbnJWcFVPbEtaK0hOMFN6REpuWnlPcG10U2dsa2pJRG53cWozanBiMjBqSWpvWlE0bkJ3PT0K"
     }
+  },
+  "installers": {
+    "darwin-aarch64-dmg": "https://loganbradley787.github.io/inkwell-updates/inkwell_2.0.1_aarch64.dmg",
+    "darwin-x86_64-dmg": "https://loganbradley787.github.io/inkwell-updates/inkwell_2.0.1_x64.dmg"
   }
 }
