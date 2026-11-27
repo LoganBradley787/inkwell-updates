@@ -1,32 +1,32 @@
 {
-  "version": "2.0.1",
-  "notes": "",
-  "pub_date": "2026-11-22T04:14:07Z",
+  "version": "2.0.2",
+  "notes": "Inkwell 2.0.2",
+  "pub_date": "2026-11-27T18:16:53Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://loganbradley787.github.io/inkwell-updates/inkwell-darwin-aarch64.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdG5uVkovY3kyUXk0bnFEUmw5TytFUUdETE4xWGNOYW9sbDVIZDcvVVlUNlNtY1BDTnlIUzFTc0hyTG50Y0ZiUk9jeXBIYzNzT01ITXVzVStpSVYydFh1SGdlTjRBdWdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzE5ODYwCWZpbGU6aW5rd2VsbC5hcHAudGFyLmd6CnoreGRZM1Awa0FhektlbWtrdGZJcmtXaG1aanQ1RWNESTVMTUZMRmJFaWZkdjVuVDR2T21lY2pmSHlaWjdwQkVoWWVFK3N0WlVubW4wTlVKVWFUaEFnPT0K"
-    },
-    "linux-x86_64": {
-      "url": "https://loganbradley787.github.io/inkwell-updates/inkwell_2.0.1_amd64.AppImage",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdG5uVkovY3kyUTV5K2l0SG1wcTgvOWxxU0dvYTkxTW5neGJHd21PTGtpZEJGTS9KejM3dXE3cURTTDJVdjRtL3cxUkJhRWYyTy9SaUhUQ3dkcTh2K3YyZ1RJTEphYndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzIwODA2CWZpbGU6aW5rd2VsbF8yLjAuMV9hbWQ2NC5BcHBJbWFnZQplQlI0T2dOaWlWeVpKQXZHdlZYYzYxblNIbXR4YTcwVjJmd2NqK0NDRWUyWGFmLzJrbzc1VTlPb3V6QVZNQ3RacWhkNXdJYnEwZDJNSG0vZzZTcGRCZz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdG5uVkovY3kyUTl5UDNNMkxZTWsvd2puZXZIRTJBV3ppdEQvSEZDUmN0dENBL3BJU0l2VjVVUEs2clpRbk52RDFtMjQ2QnZFQ1NGRnlRUVg0L3dySjAwU3pURUlUeVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODAyOTA2CWZpbGU6aW5rd2VsbC5hcHAudGFyLmd6CXZlcnNpb246Mi4wLjIKZzFkbC9rNmErWVpFT3BDK3l4dWQwRnZNeDhIQVp6Q3BwS0V6a0xnN0pFbktPY1c1MTc2ZlpyNndlQ1pXT3owWW5TcitGWlREdHNXVGpHMjdxY094QlE9PQo=",
+      "url": "https://github.com/LoganBradley787/inkwell-updates/releases/download/v2.0.2/inkwell_2.0.2_universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "url": "https://loganbradley787.github.io/inkwell-updates/inkwell-darwin-x86_64.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdG5uVkovY3kyUThSTEdBUWFZZ1RoS05sWHRUeS9LOGY0RGRudzFFeXlPK2lLYm5BSWdyZnEzYUVSdWo3QkJvMmRFZ2hRMFJ6Tk9TSWNuc1FNTU1xbFhzS25DWmdqbWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzE5OTU3CWZpbGU6aW5rd2VsbC5hcHAudGFyLmd6CjgvQ0NtcXRaMXRUekNKK0lHMnk1MENJY2ZlZ00ycU9kc0VhcWVCdGJMbitKSUZtc24zeVFZbXNKbkJPR2ZacUE4RXo2aXp4RnAwL3FrOVlmNWVvaER3PT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdG5uVkovY3kyUTl5UDNNMkxZTWsvd2puZXZIRTJBV3ppdEQvSEZDUmN0dENBL3BJU0l2VjVVUEs2clpRbk52RDFtMjQ2QnZFQ1NGRnlRUVg0L3dySjAwU3pURUlUeVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODAyOTA2CWZpbGU6aW5rd2VsbC5hcHAudGFyLmd6CXZlcnNpb246Mi4wLjIKZzFkbC9rNmErWVpFT3BDK3l4dWQwRnZNeDhIQVp6Q3BwS0V6a0xnN0pFbktPY1c1MTc2ZlpyNndlQ1pXT3owWW5TcitGWlREdHNXVGpHMjdxY094QlE9PQo=",
+      "url": "https://github.com/LoganBradley787/inkwell-updates/releases/download/v2.0.2/inkwell_2.0.2_universal.app.tar.gz"
     },
     "windows-x86_64": {
-      "url": "https://loganbradley787.github.io/inkwell-updates/inkwell_2.0.1_x64_en-US.msi",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdG5uVkovY3kyUXpQSy9yMEZWbWJyWFRlbzFOa0l5ZUoyb0FoN0lHV2pIcU5MakNZeWdHdDVWMVN1ZzJCTERGc2ZNbW43SUxyRGRVM0ExOGdKMmJ6Zyt2ZEJpK2xYTFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzIwNTcwCWZpbGU6aW5rd2VsbF8yLjAuMV94NjRfZW4tVVMubXNpClhFSnVYeGw2SEVGQmtseGtwa2dVdi9MTXZLeE9WcjkybzB2SmRvOVpMdk9HTWl6MEh3YitkOXdsZVh4Q2s2VWFUREZlRU4xcTZmK1ZUR3BNNFA1UkNRPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdG5uVkovY3kyUXg0amQ3TVF6cnkzNXFPY2NlenFDWi8xQTZQYkVxdGlqYnlQMzBDNzFyd2ZLekxzWEdrRjQ3TGl0cWZZTzRkbDNtRTFQc3NicU9La2gwWGZKS01iV3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODAzMjQ5CWZpbGU6aW5rd2VsbF8yLjAuMl94NjRfZW4tVVMubXNpCXZlcnNpb246Mi4wLjIKVkEzdDcra0FkM0JkMEpBRHZrdXROOTE4N2wrdlJvQVh5Mm9rOXhtSjFzNVVGTjh6TU90SzFIaDhIcEh1dG9rTzdGWWl0alN2MGhRV25VWTBaUVZ1Q0E9PQo=",
+      "url": "https://github.com/LoganBradley787/inkwell-updates/releases/download/v2.0.2/inkwell_2.0.2_x64_en-US.msi"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdG5uVkovY3kyUTlxSkluNVVONnVmSDIrVFJldlloTTB3amZNN1VEanRuMlFaUVNvenk2WVI1TUgvM3F1VjBZRlhZZEhCeFF1V1Y5L3VLRVR6blI4Zk56QkJPZnpxOGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODAzMzk0CWZpbGU6aW5rd2VsbF8yLjAuMl9hbWQ2NC5BcHBJbWFnZQl2ZXJzaW9uOjIuMC4yCnYzVHlsV1pNKzZjMWhTdWIvTnMxbmJRYlZ3N2ZnRVM1ekQ4aUJOdGx3dTFwVlZZSHhGOTg4WkxONzA4UXR3RS8yRndQVlgxdXBzZCtncDJOL2pBRER3PT0K",
+      "url": "https://github.com/LoganBradley787/inkwell-updates/releases/download/v2.0.2/inkwell_2.0.2_amd64.AppImage"
     }
   },
   "installers": {
-    "darwin-aarch64-dmg": "https://loganbradley787.github.io/inkwell-updates/inkwell_2.0.1_aarch64.dmg",
-    "darwin-x86_64-dmg": "https://loganbradley787.github.io/inkwell-updates/inkwell_2.0.1_x64.dmg",
-    "windows-x86_64-exe": "https://loganbradley787.github.io/inkwell-updates/inkwell_2.0.1_x64-setup.exe",
-    "windows-x86_64-msi": "https://loganbradley787.github.io/inkwell-updates/inkwell_2.0.1_x64_en-US.msi",
-    "linux-x86_64-appimage": "https://loganbradley787.github.io/inkwell-updates/inkwell_2.0.1_amd64.AppImage",
-    "linux-x86_64-deb": "https://loganbradley787.github.io/inkwell-updates/inkwell_2.0.1_amd64.deb",
-    "linux-x86_64-rpm": "https://loganbradley787.github.io/inkwell-updates/inkwell-2.0.1-1.x86_64.rpm"
+    "darwin-aarch64-dmg": "https://github.com/LoganBradley787/inkwell-updates/releases/download/v2.0.2/inkwell_2.0.2_universal.dmg",
+    "darwin-x86_64-dmg": "https://github.com/LoganBradley787/inkwell-updates/releases/download/v2.0.2/inkwell_2.0.2_universal.dmg",
+    "windows-x86_64-exe": "https://github.com/LoganBradley787/inkwell-updates/releases/download/v2.0.2/inkwell_2.0.2_x64-setup.exe",
+    "windows-x86_64-msi": "https://github.com/LoganBradley787/inkwell-updates/releases/download/v2.0.2/inkwell_2.0.2_x64_en-US.msi",
+    "linux-x86_64-appimage": "https://github.com/LoganBradley787/inkwell-updates/releases/download/v2.0.2/inkwell_2.0.2_amd64.AppImage",
+    "linux-x86_64-deb": "https://github.com/LoganBradley787/inkwell-updates/releases/download/v2.0.2/inkwell_2.0.2_amd64.deb",
+    "linux-x86_64-rpm": "https://github.com/LoganBradley787/inkwell-updates/releases/download/v2.0.2/inkwell-2.0.2-1.x86_64.rpm"
   }
 }
