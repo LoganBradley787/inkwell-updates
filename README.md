@@ -1,7 +1,7 @@
 # inkwell-updates
 
 The update channel for [Inkwell](https://www.inkwellnotes.com), a desktop note
-taker for macOS and Windows. This repo is served by GitHub Pages at
+taker for macOS, Windows and Linux. This repo is served by GitHub Pages at
 <https://loganbradley787.github.io/inkwell-updates/>.
 
 If you want to install Inkwell, go to
@@ -12,10 +12,11 @@ If you want to install Inkwell, go to
 - `latest.json` is the manifest the app's updater reads. `platforms` holds the
   update payload and signature for each OS; `installers` lists the files people
   download by hand.
-- `inkwell-darwin-*.tar.gz` and the `.sig` files are updater payloads. The app
-  checks each signature against a public key built into it before installing.
-- `.dmg`, `.msi`, `-setup.exe`, `.AppImage`, `.deb` and `.rpm` are installers.
 - `index.html` lists the current installers.
+- The installers and update payloads themselves are attached to each
+  [GitHub Release](https://github.com/LoganBradley787/inkwell-updates/releases)
+  of this repo, starting with 2.0.2. The app checks each payload's signature
+  against a public key built into it before installing.
 
 ## How it is updated
 
